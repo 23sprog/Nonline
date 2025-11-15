@@ -1,0 +1,37 @@
+/*
+-----Kalameh
+*/
+
+@font-face {
+    font-family: 'Kalameh';
+    src: url('../fonts/Kalameh/Kalameh-Bold.ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Kalameh';
+    src: url('../fonts/Kalameh/Kalameh-Regular.ttf');
+    font-weight: normal;
+}
+
+/*
+-----Ravi
+*/
+
+@font-face {
+    font-family: 'Ravi';
+    src: url('../fonts/Ravi/Ravi-Bold.ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Ravi';
+    src: url('../fonts/Ravi/Ravi-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Ravi';
+    src: url('../fonts/Ravi/Ravi-Thin.ttf');
+    font-weight: 200;
+}
