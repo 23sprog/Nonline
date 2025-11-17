@@ -22,3 +22,77 @@ a{
 li,ul{
     list-style-type: none;
 }
+.bottomHeader{
+    width: 1224px;
+    height: 507px;
+    margin: 20px auto;
+}
+.bottomHeader-left{
+    width: 50%;
+}
+.bottomHeader-left_trapezoid{
+  width: 472px;
+  height: 507px;
+  background: #F3EADE;
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='472' height='507' viewBox='0 0 472 507'><path d='M0 40C0 17.9086 17.9086 0 40 0H262.779C279.205 0 293.961 10.0418 299.989 25.3217L468.431 452.322C478.785 478.57 459.438 507 431.221 507H40C17.9086 507 0 489.091 0 467V40Z' /></svg>");
+  mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='472' height='507' viewBox='0 0 472 507'><path d='M0 40C0 17.9086 17.9086 0 40 0H262.779C279.205 0 293.961 10.0418 299.989 25.3217L468.431 452.322C478.785 478.57 459.438 507 431.221 507H40C17.9086 507 0 489.091 0 467V40Z' /></svg>");
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  position: absolute;
+}
+.bottomHeader-left_img{
+    position: absolute;
+    width: 552px;
+    height: 457px;
+    margin-top: 25px;
+    margin-left: 53px;
+    z-index: 10px;
+}
+.bottomHeader-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+    height: 507px;
+    gap: 48px;
+}
+.bottomHeader-right_title{
+    font-size: 64px;
+    font-family: 'Kalameh';
+    font-weight: 900;
+    line-height: 128%;
+    color: #000;
+    margin-left: 67%;
+}
+.bottomHeader-right_title2{
+    display: inline;
+}
+.bottomHeader-right_title3{
+    display: inline;
+    color: #C38432;
+}
+.bottomHeader-right_text{
+    margin-left: 64%;
+    line-height: 160%;
+    font-size: 16px;
+    font-family: 'Ravi';
+    color: #676F71;
+    width: 35%;
+}
+.bottomHeader-right_btn{
+    margin-left: 85%;
+}
+#bottomHeader-right_btn-active{
+    height:40px;
+    width: 143px;
+    font-size: 16px;
+    color: white;
+    background: #D6A25E;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Ravi';
+    padding: 8px 16px;
+}
